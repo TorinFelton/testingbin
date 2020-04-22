@@ -70,9 +70,54 @@
 							{% for icon in footer.about.icons %}
 								<li class="list-inline-item">
 								  <a class="btn ripple btn-floating btn-sm mx-1">
-									<i class="fa {{ icon.fa_icon }}"></i>
+									<i class="fa {{ icon.fa-icon }}"></i>
 								  </a>
 								</li>
+							{% endfor %}
+						</ul>
+					</div>
+					{% endif %}
+					{% if footer.our_services.show %}
+					<div class="col-lg-2 col-md-12">
+						<h6>{{ footer.our_services.title }}</h6>
+						 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+						<ul class="list-unstyled mb-0">
+							{% for service in footer.our_services.service_links %}
+								<li><a href="{{ service.link }}">{{ service.link_name }}</a></li>
+							{% endfor %}
+						</ul>
+					</div>
+					{% endif %}
+					{% if footer.contact.show %}
+					<div class="col-lg-3 col-md-12">
+						<h6>{{ footer.contact.title }}</h6>
+						<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+						<ul class="footer-conatct list-unstyled mb-0 contact-footer">
+							{% for detail in footer.contact.details %}
+								<li>
+									<a href="{{ detail.link }}"><i class="fa {{ detail.fa-icon }} ml-3 text-white"></i>{{ detail.detail_text }}</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+					{% endif %}
+					{% if footer.subscribe.show %}
+					<div class="col-lg-4 col-md-12">
+						<h6>{{ footer.subscribe.title }}</h6>
+						<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+						<div class="clearfix"></div>
+						<div class="input-group w-100">
+							<input type="text" class="form-control br-tr-3  br-br-3 " placeholder="Email">
+							<div class="input-group-append ">
+								<button type="button" class="btn ripple  btn-primary br-tl-3  br-bl-3"> {{ footer.subscribe.sub_btn_text }} </button>
+							</div>
+						</div>
+						<h6 class="mb-0 mt-5">{{ footer.subscribe.pay_area_title }}</h6>
+						<hr class="deep-purple  text-primary accent-2 mb-2 mt-3 d-inline-block mx-auto">
+						<div class="clearfix"></div>
+						<ul class="footer-payments">
+							{% for pay_method in footer.subscribe.pay_methods %}
+								<li><a href="{{ pay_method.link }}"><i class="fa {{ pay_method.fa-icon }}" aria-hidden="true"></i></a></li>
 							{% endfor %}
 						</ul>
 					</div>
