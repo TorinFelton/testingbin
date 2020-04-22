@@ -575,7 +575,7 @@
 						<h6 class="mb-0 mt-5">{{ footer.subscribe.pay_area_title }}</h6>
 						<hr class="deep-purple  text-primary accent-2 mb-2 mt-3 d-inline-block mx-auto">
 						<div class="clearfix"></div>
-						<ul class="footer-payments">
+						<ul class="footer-payments" style="margin-left: -10px">
 							{% for pay_method in footer.subscribe.pay_methods %}
 								<li><a href="{{ pay_method.link }}"><i class="fa {{ pay_method.fa_icon }}" aria-hidden="true"></i></a></li>
 							{% endfor %}
