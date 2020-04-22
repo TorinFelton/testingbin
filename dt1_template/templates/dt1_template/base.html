@@ -95,7 +95,7 @@
 											{% if top_bar.contact.languages.show %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 														{% for language in top_bar.contact.languages.contents %}
 														<a href="{{ language.href }}" class="dropdown-item" >
 															{{ language.name }}
@@ -108,7 +108,7 @@
 											{% if top_bar.contact.currencies.show %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 														{% for currency in top_bar.contact.currencies.contents %}
 															<a href="{{ currency.href }}" class="dropdown-item" >
 																{{ currency.name }}
@@ -132,7 +132,7 @@
 											{% elif item.type == "dropdown" %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><i class="fa {{ item.icon }} ml-1"></i><span> {{ item.text }}<i class="fa fa-caret-down mr-1"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 														{% for dropdown_item in item.contents %}
 															<a href="{{ dropdown_item.link }}" class="dropdown-item" >
 																<i class="dropdown_item icon {{ dropdown_item.icon }}"></i> My {{ dropdown_item.text }}
@@ -165,7 +165,7 @@
 										<i class="fe fe-shopping-cart"></i>
 										<span class="nav-unread badge badge-danger badge-pill">2</span>
 									</a>
-									<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow cart-dropdown">
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow cart-dropdown">
 										<div class="drop-cart header-dropdown-list">
 											<div class="border-bottom">
 												<div class="d-flex pl-3 pr-4 pt-2 pb-3 align-items-center">
@@ -266,7 +266,7 @@
 										<i class="fe fe-bell"></i>
 										<span class="pulse bg-success"></span>
 									</a>
-									<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 										<div class="notifications-menu header-dropdown-list">
 											<a href="#" class="dropdown-item d-flex">
 												<div class="text-primary fs-18 ml-3 ">
@@ -342,7 +342,7 @@
 										<i class="fe fe-mail"></i>
 										<span class="nav-unread badge badge-info badge-pill">3</span>
 									</a>
-									<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 										<div class="message-menu header-dropdown-list">
 											<a class="dropdown-item border-bottom" href="#">
 												<div class="d-flex align-items-center">
@@ -444,7 +444,7 @@
 										<i class="fe fe-user"></i>
 										<span class="pulse bg-success"></span>
 									</a>
-									<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+									<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 										<div class="drop-heading">
 											<div class="text-center">
 												<h5 class="text-dark mb-1">Jacob Smith</h5>
