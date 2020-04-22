@@ -157,23 +157,23 @@
 			"pay_methods": [
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa-cc_visa"
+					"fa_icon": "fa-cc-visa"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa-credit_card_alt"
+					"fa_icon": "fa-credit-card-alt"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa-cc_mastercard"
+					"fa_icon": "fa-cc-mastercard"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa-cc_paypal"
+					"fa_icon": "fa-cc-paypal"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa-cc_amex"
+					"fa_icon": "fa-cc-amex"
 				}
 			]
 		},
