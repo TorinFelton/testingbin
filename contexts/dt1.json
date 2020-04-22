@@ -84,10 +84,10 @@
 			"title": "About",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate essequasi, veritatis totam voluptas nostrum.Lorem ipsum dolor sit amet, consectetur",
 			"icons": [
-				{ "faicon": "fa_facebook" },
-				{ "fa_icon": "fa_twitter" },
-				{ "fa_icon": "fa_google_plus" },
-				{ "fa_icon": "fa_linkedin" }
+				{ "faicon": "fa-facebook" },
+				{ "fa_icon": "fa-twitter" },
+				{ "fa_icon": "fa-google_plus" },
+				{ "fa_icon": "fa-linkedin" }
 			]
 		},
 
@@ -127,22 +127,22 @@
 			"title": "Contact",
 			"details": [
 				{
-					"fa_icon": "fa_home",
+					"fa_icon": "fa-home",
 					"detail_text": "22 S. Rock Creek StreetSan Carlos, Uniontown CA 94070, USA",
 					"link": "#"
 				},
 				{
-					"fa_icon": "fa_envelope",
+					"fa_icon": "fa-envelope",
 					"detail_text": "info12323@example.com",
 					"link": "#"
 				},
 				{
-					"fa_icon": "fa_phone",
+					"fa_icon": "fa-phone",
 					"detail_text": " + 01 234 567 88",
 					"link": "#"
 				},
 				{
-					"fa_icon": "fa_print",
+					"fa_icon": "fa-print",
 					"detail_text": " + 01 234 567 89",
 					"link": "#"
 				}
@@ -157,23 +157,23 @@
 			"pay_methods": [
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa_cc_visa"
+					"fa_icon": "fa-cc_visa"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa_credit_card_alt"
+					"fa_icon": "fa-credit_card_alt"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa_cc_mastercard"
+					"fa_icon": "fa-cc_mastercard"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa_cc_paypal"
+					"fa_icon": "fa-cc_paypal"
 				},
 				{
 					"link": "javascript:;",
-					"fa_icon": "fa_cc_amex"
+					"fa_icon": "fa-cc_amex"
 				}
 			]
 		},
