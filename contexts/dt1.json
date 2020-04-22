@@ -84,9 +84,9 @@
 			"title": "About",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate essequasi, veritatis totam voluptas nostrum.Lorem ipsum dolor sit amet, consectetur",
 			"icons": [
-				{ "faicon": "fa-facebook" },
+				{ "fa_icon": "fa-facebook" },
 				{ "fa_icon": "fa-twitter" },
-				{ "fa_icon": "fa-google_plus" },
+				{ "fa_icon": "fa-google-plus" },
 				{ "fa_icon": "fa-linkedin" }
 			]
 		},
