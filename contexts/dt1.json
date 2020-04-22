@@ -7,6 +7,12 @@
 		"keywords": "digital goods, digital marketplace, easy digital downloads, marketplace website, multi vendor, online marketplace, digital download, marketplace, best marketplace, best marketplace websites, building an online marketplace, digital goods marketplace, digital product marketplace, internet marketplace, marketplace html template, marketplace template, marketplace website template, online marketplace to sell, web marketplace, bootstrap 4 marketplace template, bootstrap marketplace, bootstrap marketplace template, digital marketplace html template, html marketplace template, marketplace bootstrap template, marketplace template bootstrap, marketplace template html, multi vendor html template, template marketplace bootstrap"
 	},
 
+	"header": {
+		"header_logo1": "dt1_template/assets/images/brand/logo1.png",
+		"header_logo2": "dt1_template/assets/images/brand/logo.png",
+		
+	},
+
 	"sections": [
 		{
 			"type": "header",
