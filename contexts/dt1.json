@@ -7,6 +7,144 @@
 		"keywords": "digital goods, digital marketplace, easy digital downloads, marketplace website, multi vendor, online marketplace, digital download, marketplace, best marketplace, best marketplace websites, building an online marketplace, digital goods marketplace, digital product marketplace, internet marketplace, marketplace html template, marketplace template, marketplace website template, online marketplace to sell, web marketplace, bootstrap 4 marketplace template, bootstrap marketplace, bootstrap marketplace template, digital marketplace html template, html marketplace template, marketplace bootstrap template, marketplace template bootstrap, marketplace template html, multi vendor html template, template marketplace bootstrap"
 	},
 
+	"top_bar": {
+		"socials": [
+			{
+				"link": "#",
+				"icon": "fa-facebook"
+			},
+			{
+				"link": "#",
+				"icon": "fa-twitter"
+			},
+			{
+				"link": "#",
+				"icon": "fa-linkedin"
+			},
+			{
+				"link": "#",
+				"icon": "fa-google-plus"
+			}
+		],
+		"contact": {
+			"communication": {
+				"show": true,
+				"contents": [
+					{
+						"link": "#",
+						"icon": "fa fa-phone",
+						"text": "+425 345 8765"
+					}
+				]
+			},
+			"countries": {
+				"show": true,
+				"contents": [
+					{
+						"name": "United States of America",
+						"code": "UM"
+					},
+					{
+						"name": "Japan",
+						"code": "JP"
+					},
+					{
+						"name": "Barbados",
+						"code": "BB"
+					}
+				]
+			},
+			"languages": {
+				"show": true,
+				"contents": [
+					{
+						"name": "English",
+						"href": "#"
+					},
+					{
+						"name": "Arabic",
+						"href": "#"
+					},
+					{
+						"name": "German",
+						"href": "#"
+					},
+					{
+						"name": "Greek",
+						"href": "#"
+					}
+				]
+			},
+			"currencies": {
+				"show": true,
+				"contents": [
+					{
+						"name": "USD",
+						"href": "#"
+					},
+					{
+						"name": "EUR",
+						"href": "#"
+					},
+					{
+						"name": "INR",
+						"href": "#"
+					},
+					{
+						"name": "GBP",
+						"href": "#"
+					}
+				]
+			}
+		},
+		"custom": [
+			{
+				"type": "button",
+				"text": "Register",
+				"link": "register.html",
+				"icon": "fa-user"
+			},
+			{
+				"type": "button",
+				"text": "Login",
+				"link": "login.html",
+				"icon": "fa-sign-in"
+			},
+			{
+				"type": "dropdown",
+				"text": "My Dashboard",
+				"icon": "fa-home",
+				"contents": [
+					{
+						"text": "My Profile",
+						"link": "mydash.html",
+						"icon": "icon-user"
+					},
+					{
+						"text": "Inbox",
+						"link": "#",
+						"icon": "icon-speech"
+					},
+					{
+						"text": "Notifications",
+						"link": "#",
+						"icon": "icon-bell"
+					},
+					{
+						"text": "Account Settings",
+						"link": "#",
+						"icon": "icon-settings"
+					},
+					{
+						"text": "Log out",
+						"link": "#",
+						"icon": "icon-power"
+					}
+				]
+			}
+		]
+	},
+
 	"header": {
 		"header_logo1": "dt1_template/assets/images/brand/logo1.png",
 		"header_logo2": "dt1_template/assets/images/brand/logo.png"
