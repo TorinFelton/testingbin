@@ -217,7 +217,7 @@
 												<div class="notifications-menu header-dropdown-list">
 													{% for notification in item.dropdown_contents %}
 														<a href="{{ notification.link }}" class="dropdown-item d-flex {{ notification.border }}">
-															<div class="text-primary fs-18 ml-3 ">
+															<div class="text-primary fs-18 mr-3 ">
 																<i class="{{ notification.icon }}"></i>
 															</div>
 															<div>
@@ -229,7 +229,7 @@
 												</div>
 												<div class="dropdown-footer p-3">
 													{% for footer_item in item.footer_contents %}
-														<a href="item.link" class="fs-14 text-dark text-center">{{ item.text }}</a>
+														<a href="item.link" class="fs-14 text-dark text-center">{{ footer_item.text }}</a>
 													{% endfor %}
 												</div>
 											</div>
