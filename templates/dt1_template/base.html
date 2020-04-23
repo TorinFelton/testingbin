@@ -229,7 +229,7 @@
 												</div>
 												<div class="dropdown-footer p-3">
 													{% for footer_item in item.footer_contents %}
-														<a href="item.link" class="fs-14 text-dark text-center">{{ footer_item.text }}</a>
+														<a href="item.link" class="fs-14 text-dark text-center">{{ item.text }}</a>
 													{% endfor %}
 												</div>
 											</div>
@@ -294,7 +294,9 @@
 											</div>
 										</div>
 									{% endif %}
-								{% endfor %}
+
+
+
 							</div>
 						</div>
 					</div>
