@@ -147,7 +147,134 @@
 
 	"header": {
 		"header_logo1": "dt1_template/assets/images/brand/logo1.png",
-		"header_logo2": "dt1_template/assets/images/brand/logo.png"
+		"header_logo2": "dt1_template/assets/images/brand/logo.png",
+		"items": [
+			{
+				"type": "cart",
+				"style": "notifications",
+				"icon": "fe fe-shopping-cart",
+				"span_class": "nav-unread badge badge-danger badge-pill",
+				"span_text": "2",
+				"dropdown_contents": [
+					{
+						"border": "border-bottom",
+						"img_url": "dt1_template/assets/images/media/pictures/small/01.jpg",
+						"text1": "HTML Template",
+						"text2": "HTML",
+						"price": "$24"
+					},
+					{
+						"border": "border-bottom",
+						"img_url": "dt1_template/assets/images/media/pictures/small/02.jpg",
+						"text1": "Wordpress template",
+						"text2": "Wordpress",
+						"price": "$18"
+					}
+				],
+				"footer_contents": [
+					{
+						"btn_text": "View Cart",
+						"btn_link": "cart.html",
+						"btn_style": "btn-primary"
+					},
+					{
+						"btn_text": "Checkout",
+						"btn_link": "checkout.html",
+						"btn_style": "btn-secondary"
+					}
+				]
+			},
+			{
+				"type": "notifications",
+				"style": "notifications",
+				"icon": "fe fe-bell",
+				"span_class": "pulse bg-success",
+				"span_text": "",
+				"dropdown_contents": [
+					{
+						"link": "#",
+						"border": "",
+						"icon": "fe fe-mail text-primary",
+						"text1": "Commented on your post.",
+						"text2": "3 hours ago"
+					},
+					{
+						"link": "#",
+						"border": "border-top",
+						"icon": "fe fe-user text-secondary",
+						"text1": "New User Registered.",
+						"text2": "1 day ago"
+					},
+					{
+						"link": "#",
+						"border": "border-top",
+						"icon": "fe fe-upload text-purple",
+						"text1": "New file uploaded",
+						"text2": "2 days ago"
+					}
+				],
+				"footer_contents": [
+					{
+						"link": "#",
+						"text": "View All Notifications"
+					}
+				]
+
+			},
+			{
+				"type": "message",
+				"style": "message",
+				"icon": "fe fe-mail",
+				"span_class": "nav-unread badge badge-info badge-pill",
+				"span_text": "3",
+				"dropdown_contents": [
+					{
+						"link": "#",
+						"border": "border-bottom",
+						"avatar_img": "dt1_template/assets/images/users/male/1.jpg",
+						"name": "Jack Wright",
+						"text1": "All the best your template is awesome",
+						"text2": "3 hours ago"
+					}
+				]
+			},
+			{
+				"type": "profile",
+				"style": "profile-1",
+				"icon": "fe fe-user",
+				"span_class": "pulse bg-success",
+				"span_text": "",
+				"dropdown_heading": true,
+				"dropdown_heading_data": {
+					"text1": "Jacob Smith",
+					"text2": "$478.99"
+				},
+				"dropdown_contents": [
+					{
+						"icon": "dropdown-icon ti-write",
+						"text": "Edit Profile",
+						"link": "#"
+					},
+					{
+						"icon": "dropdown-icon ti-heart",
+						"text": "My Favorite",
+						"link": "#"
+					},
+					{
+						"icon": "dropdown-icon ti-write",
+						"text": "Edit Profile",
+						"link": "#"
+					}
+				],
+				"footer_contents": [
+					{
+						"link": "#",
+						"text": "Logout",
+						"icon": "dropdown-icon ti-unlock"
+					}
+				]
+			}
+		]
 
 	},
 
