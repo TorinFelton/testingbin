@@ -103,7 +103,7 @@
 											{% if top_bar.contact.languages.show %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
-													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
 														{% for language in top_bar.contact.languages.contents %}
 														<a href="{{ language.href }}" class="dropdown-item" >
 															{{ language.name }}
@@ -116,7 +116,7 @@
 											{% if top_bar.contact.currencies.show %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
 														{% for currency in top_bar.contact.currencies.contents %}
 															<a href="{{ currency.href }}" class="dropdown-item" >
 																{{ currency.name }}
@@ -140,7 +140,7 @@
 											{% elif item.type == "dropdown" %}
 												<li class="dropdown">
 													<a href="#" class="text-dark" data-toggle="dropdown"><i class="fa {{ item.icon }} ml-1"></i><span> {{ item.text }}<i class="fa fa-caret-down ml-1"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
 														{% for dropdown_item in item.contents %}
 															<a href="{{ dropdown_item.link }}" class="dropdown-item" >
 																<i class="dropdown_item icon {{ dropdown_item.icon }}"></i> My {{ dropdown_item.text }}
@@ -240,7 +240,7 @@
 												<i class="{{ item.icon }}"></i>
 												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
 											</a>
-											<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
 												<div class="message-menu header-dropdown-list">
 													{% for message in item.dropdown_contents %}
 														<a class="dropdown-item {{ message.border }}" href="{{ message.link }}">
@@ -270,7 +270,7 @@
 												<i class="{{ item.icon }}"></i>
 												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
 											</a>
-											<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
 												{% if item.dropdown_heading %}
 													<div class="drop-heading">
 														<div class="text-center">
