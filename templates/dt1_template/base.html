@@ -58,324 +58,325 @@
 		<div id="global-loader">
 			<img src="{% static 'dt1_template/assets/images/loader.svg' %}" class="loader-img" alt="img">
 		</div><!--/Loader-->
+		<div style="margin-bottom: 10px">
+			<!--Section-->
+			<div class="banner-1 cover-image bg-background2" data-image-src="{% static 'dt1_template/assets/images/banners/banner1.jpg' %}">
 
-		<!--Section-->
-		<div class="banner-1 cover-image bg-background2" data-image-src="{% static 'dt1_template/assets/images/banners/banner1.jpg' %}">
+				<div class="header-main">
+					<!--Topbar-->
+					<div class="top-bar">
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+									<div class="top-bar-left d-flex">
+										<div class="clearfix">
+											<ul class="socials">
+												{% for fa_icon in top_bar.socials %}
+												<li style="padding: 9px 12px 15px 15px">
+													<a class="social-icon text-dark" href="{{ fa_icon.link }}"><i class="fa {{ fa_icon.icon }}"></i></a>
+												</li>
+												{% endfor %}
+											</ul>
+										</div>
+										<div class="clearfix">
+											<ul class="contact">
+												{% if top_bar.contact.communication.show %}
+													{% for contact_info in top_bar.contact.communication.contents %}
+													<li class="d-lg-none">
+														<a href="{{ contact_info.link }}" class="callnumber text-dark"><span><i class="{{ contact_info.icon }} ml-1"></i>{{ contact_info.text }}</span></a>
+													</li>
+													{% endfor %}
+												{% endif %}
 
-			<div class="header-main">
-				<!--Topbar-->
-				<div class="top-bar">
-					<div class="container">
-						<div class="row">
-							<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
-								<div class="top-bar-left d-flex">
-									<div class="clearfix">
-										<ul class="socials">
-											{% for fa_icon in top_bar.socials %}
-											<li style="padding: 9px 12px 15px 15px">
-												<a class="social-icon text-dark" href="{{ fa_icon.link }}"><i class="fa {{ fa_icon.icon }}"></i></a>
-											</li>
+												{% if top_bar.contact.countries.show %}
+													<li class="select-country">
+														<select class="form-control select2-flag-search" data-placeholder="Select Country">
+														{% if top_bar.contact.countries.show %}
+															{% for country in top_bar.contact.countries.contents %}
+															<option value="{{ country.code }}">{{ country.name }}</option>
+															{% endfor %}
+														{% endif %}
+														</select>
+													</li>
+												{% endif %}
+
+												{% if top_bar.contact.languages.show %}
+													<li class="dropdown">
+														<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
+														<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+															{% for language in top_bar.contact.languages.contents %}
+															<a href="{{ language.href }}" class="dropdown-item" >
+																{{ language.name }}
+															</a>
+															{% endfor %}
+														</div>
+													</li>
+												{% endif %}
+
+												{% if top_bar.contact.currencies.show %}
+													<li class="dropdown">
+														<a href="#" class="text-dark" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
+														<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+															{% for currency in top_bar.contact.currencies.contents %}
+																<a href="{{ currency.href }}" class="dropdown-item" >
+																	{{ currency.name }}
+																</a>
+															{% endfor %}
+														</div>
+													</li>
+												{% endif %}
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+									<div class="top-bar-right">
+										<ul class="custom">
+											{% for item in top_bar.custom %}
+												{% if item.type == "button" %}
+													<li>
+														<a href="{{ item.link }}" class="text-dark"><i class="fa {{ item.icon }} ml-1"></i> <span>{{ item.text }}</span></a>
+													</li>
+												{% elif item.type == "dropdown" %}
+													<li class="dropdown">
+														<a href="#" class="text-dark" data-toggle="dropdown"><i class="fa {{ item.icon }} ml-1"></i><span> {{ item.text }}<i class="fa fa-caret-down ml-1"></i></span></a>
+														<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+															{% for dropdown_item in item.contents %}
+																<a href="{{ dropdown_item.link }}" class="dropdown-item" >
+																	<i class="dropdown_item icon {{ dropdown_item.icon }}"></i> My {{ dropdown_item.text }}
+																</a>
+															{% endfor %}
+														</div>
+													</li>
+												{% endif %}
 											{% endfor %}
 										</ul>
 									</div>
-									<div class="clearfix">
-										<ul class="contact">
-											{% if top_bar.contact.communication.show %}
-												{% for contact_info in top_bar.contact.communication.contents %}
-												<li class="d-lg-none">
-													<a href="{{ contact_info.link }}" class="callnumber text-dark"><span><i class="{{ contact_info.icon }} ml-1"></i>{{ contact_info.text }}</span></a>
-												</li>
-												{% endfor %}
-											{% endif %}
-
-											{% if top_bar.contact.countries.show %}
-												<li class="select-country">
-													<select class="form-control select2-flag-search" data-placeholder="Select Country">
-													{% if top_bar.contact.countries.show %}
-														{% for country in top_bar.contact.countries.contents %}
-														<option value="{{ country.code }}">{{ country.name }}</option>
-														{% endfor %}
-													{% endif %}
-													</select>
-												</li>
-											{% endif %}
-
-											{% if top_bar.contact.languages.show %}
-												<li class="dropdown">
-													<a href="#" class="text-dark" data-toggle="dropdown"><span> Language <i class="fa fa-caret-down text-muted"></i></span> </a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-														{% for language in top_bar.contact.languages.contents %}
-														<a href="{{ language.href }}" class="dropdown-item" >
-															{{ language.name }}
-														</a>
-														{% endfor %}
-													</div>
-												</li>
-											{% endif %}
-
-											{% if top_bar.contact.currencies.show %}
-												<li class="dropdown">
-													<a href="#" class="text-dark" data-toggle="dropdown"><span>Currency <i class="fa fa-caret-down text-muted"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-														{% for currency in top_bar.contact.currencies.contents %}
-															<a href="{{ currency.href }}" class="dropdown-item" >
-																{{ currency.name }}
-															</a>
-														{% endfor %}
-													</div>
-												</li>
-											{% endif %}
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
-								<div class="top-bar-right">
-									<ul class="custom">
-										{% for item in top_bar.custom %}
-											{% if item.type == "button" %}
-												<li>
-													<a href="{{ item.link }}" class="text-dark"><i class="fa {{ item.icon }} ml-1"></i> <span>{{ item.text }}</span></a>
-												</li>
-											{% elif item.type == "dropdown" %}
-												<li class="dropdown">
-													<a href="#" class="text-dark" data-toggle="dropdown"><i class="fa {{ item.icon }} ml-1"></i><span> {{ item.text }}<i class="fa fa-caret-down ml-1"></i></span></a>
-													<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-														{% for dropdown_item in item.contents %}
-															<a href="{{ dropdown_item.link }}" class="dropdown-item" >
-																<i class="dropdown_item icon {{ dropdown_item.icon }}"></i> My {{ dropdown_item.text }}
-															</a>
-														{% endfor %}
-													</div>
-												</li>
-											{% endif %}
-										{% endfor %}
-									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!--/Topbar-->
+					<!--/Topbar-->
 
-				<!--Header-->
-				<header class="header-search header-logosec p-2 header-icons">
-					<div class="container">
-						<div class="d-flex">
-							<div class="header-search-logo d-none d-lg-block">
-								<a class="header-logo" href="index.html">
-									<img src="{% static header.header_logo1 %}" class="header-brand-img" alt=" logo">
-									<img src="{% static header.header_logo2 %}" class="header-brand-img header-white" alt="logo">
-								</a>
-							</div>
-							<div class="d-flex ml-auto header-left-icons header-search-icon">
-								{%  for item in header.items %}
-									{% if item.type == "cart" %}
-										<div class="dropdown d-md-flex {{ item.style }}">
-											<a class="nav-link icon" data-toggle="dropdown">
-												<i class="{{ item.icon }}"></i>
-												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
-											</a>
-											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow cart-dropdown">
-												<div class="drop-cart header-dropdown-list">
-													{% for cart_item in item.dropdown_contents %}
-														<div class="{{ cart_item.border }}">
-															<div class="d-flex pl-3 pr-4 pt-2 pb-3 align-items-center">
-																<div class="">
-																	<img src="{% static cart_item.img_url %}" class="bl-4" alt="img">
-																</div>
-																<div class="d-flex">
-																	<div class="pl-3">
-																		<span class="fs-16 h4 d-block">{{ cart_item.text1 }}</span>
-																		<div class="fs-13 text-muted">{{ cart_item.text2 }}</div>
+					<!--Header-->
+					<header class="header-search header-logosec p-2 header-icons">
+						<div class="container">
+							<div class="d-flex">
+								<div class="header-search-logo d-none d-lg-block">
+									<a class="header-logo" href="index.html">
+										<img src="{% static header.header_logo1 %}" class="header-brand-img" alt=" logo">
+										<img src="{% static header.header_logo2 %}" class="header-brand-img header-white" alt="logo">
+									</a>
+								</div>
+								<div class="d-flex ml-auto header-left-icons header-search-icon">
+									{%  for item in header.items %}
+										{% if item.type == "cart" %}
+											<div class="dropdown d-md-flex {{ item.style }}">
+												<a class="nav-link icon" data-toggle="dropdown">
+													<i class="{{ item.icon }}"></i>
+													<span class="{{ item.span_class }}">{{ item.span_text }}</span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow cart-dropdown">
+													<div class="drop-cart header-dropdown-list">
+														{% for cart_item in item.dropdown_contents %}
+															<div class="{{ cart_item.border }}">
+																<div class="d-flex pl-3 pr-4 pt-2 pb-3 align-items-center">
+																	<div class="">
+																		<img src="{% static cart_item.img_url %}" class="bl-4" alt="img">
+																	</div>
+																	<div class="d-flex">
+																		<div class="pl-3">
+																			<span class="fs-16 h4 d-block">{{ cart_item.text1 }}</span>
+																			<div class="fs-13 text-muted">{{ cart_item.text2 }}</div>
+																		</div>
+																	</div>
+																	<div class="ml-auto text-center">
+																		<a href="#" class="text-muted"><i class="fe fe-trash-2 fs-13"></i></a>
+																		<div class="h5 text-dark mt-1 mb-0">{{ cart_item.price }}</div>
 																	</div>
 																</div>
-																<div class="ml-auto text-center">
-																	<a href="#" class="text-muted"><i class="fe fe-trash-2 fs-13"></i></a>
-																	<div class="h5 text-dark mt-1 mb-0">{{ cart_item.price }}</div>
-																</div>
 															</div>
-														</div>
-													{% endfor %}
-												</div>
-												<div class="dropdown-footer">
-													<div class="btn-list">
-														{% for footer_item in item.footer_contents %}
-															<a href="{{ footer_item.btn_link }}" class="btn {{ footer_item.btn_style }}  ripple mb-lg-0">{{ footer_item.btn_text }}</a>
 														{% endfor %}
+													</div>
+													<div class="dropdown-footer">
+														<div class="btn-list">
+															{% for footer_item in item.footer_contents %}
+																<a href="{{ footer_item.btn_link }}" class="btn {{ footer_item.btn_style }}  ripple mb-lg-0">{{ footer_item.btn_text }}</a>
+															{% endfor %}
+														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-									{% elif item.type == "notifications" %}
-										<div class="dropdown d-md-flex {{ item.style }}">
-											<a class="nav-link icon" data-toggle="dropdown">
-												<i class="{{ item.icon }}"></i>
-												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
-											</a>
-											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-												<div class="notifications-menu header-dropdown-list">
-													{% for notification in item.dropdown_contents %}
-														<a href="{{ notification.link }}" class="dropdown-item d-flex {{ notification.border }}">
-															<div class="text-primary fs-18 mr-3 ">
-																<i class="{{ notification.icon }}"></i>
-															</div>
-															<div>
-																<h6 class="mb-1">{{ notification.text1 }}</h6>
-																<div class="small text-muted">{{ notification.text2 }}</div>
-															</div>
-														</a>
-													{% endfor %}
-												</div>
-												<div class="dropdown-footer p-3">
-													{% for footer_item in item.footer_contents %}
-														<a href="item.link" class="fs-14 text-dark text-center">{{ footer_item.text }}</a>
-													{% endfor %}
-												</div>
-											</div>
-										</div><!-- NOTIFICATIONS -->
-									{% elif item.type == "message" %}
-										<div class="dropdown d-md-flex {{ item.style }}">
-											<a class="nav-link icon text-center" data-toggle="dropdown">
-												<i class="{{ item.icon }}"></i>
-												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
-											</a>
-											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-												<div class="message-menu header-dropdown-list">
-													{% for message in item.dropdown_contents %}
-														<a class="dropdown-item {{ message.border }}" href="{{ message.link }}">
-															<div class="d-flex align-items-center">
-																<div class="">
-																	<span class="avatar avatar-md brround align-self-center cover-image" data-image-src="{% static message.avatar_img %}"></span>
+										{% elif item.type == "notifications" %}
+											<div class="dropdown d-md-flex {{ item.style }}">
+												<a class="nav-link icon" data-toggle="dropdown">
+													<i class="{{ item.icon }}"></i>
+													<span class="{{ item.span_class }}">{{ item.span_text }}</span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													<div class="notifications-menu header-dropdown-list">
+														{% for notification in item.dropdown_contents %}
+															<a href="{{ notification.link }}" class="dropdown-item d-flex {{ notification.border }}">
+																<div class="text-primary fs-18 mr-3 ">
+																	<i class="{{ notification.icon }}"></i>
 																</div>
-																<div class="d-flex">
-																	<div class="pr-3">
-																		<span class="font-weight-semibold">{{ message.name }}</span> {{ message.text1 }}
-																		<div class="small text-muted">
-																			{{ message.text2 }}
+																<div>
+																	<h6 class="mb-1">{{ notification.text1 }}</h6>
+																	<div class="small text-muted">{{ notification.text2 }}</div>
+																</div>
+															</a>
+														{% endfor %}
+													</div>
+													<div class="dropdown-footer p-3">
+														{% for footer_item in item.footer_contents %}
+															<a href="item.link" class="fs-14 text-dark text-center">{{ footer_item.text }}</a>
+														{% endfor %}
+													</div>
+												</div>
+											</div><!-- NOTIFICATIONS -->
+										{% elif item.type == "message" %}
+											<div class="dropdown d-md-flex {{ item.style }}">
+												<a class="nav-link icon text-center" data-toggle="dropdown">
+													<i class="{{ item.icon }}"></i>
+													<span class="{{ item.span_class }}">{{ item.span_text }}</span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													<div class="message-menu header-dropdown-list">
+														{% for message in item.dropdown_contents %}
+															<a class="dropdown-item {{ message.border }}" href="{{ message.link }}">
+																<div class="d-flex align-items-center">
+																	<div class="">
+																		<span class="avatar avatar-md brround align-self-center cover-image" data-image-src="{% static message.avatar_img %}"></span>
+																	</div>
+																	<div class="d-flex">
+																		<div class="pr-3">
+																			<span class="font-weight-semibold">{{ message.name }}</span> {{ message.text1 }}
+																			<div class="small text-muted">
+																				{{ message.text2 }}
+																			</div>
 																		</div>
 																	</div>
 																</div>
+															</a>
+														{% endfor %}
+													</div>
+													<div class="dropdown-divider"></div>
+													<a href="#" class="dropdown-item text-center">See all Messages</a>
+												</div>
+											</div>
+										{% elif item.type == "profile" %}
+											<div class="dropdown d-md-flex {{ item.style }}">
+												<a class="nav-link icon text-center" data-toggle="dropdown">
+													<i class="{{ item.icon }}"></i>
+													<span class="{{ item.span_class }}">{{ item.span_text }}</span>
+												</a>
+												<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+													{% if item.dropdown_heading %}
+														<div class="drop-heading">
+															<div class="text-center">
+																<h5 class="text-dark mb-1">{{ item.dropdown_heading_data.text1 }}</h5>
+																<small class="text-muted fs-16 text-primary font-weight-semibold">{{ item.dropdown_heading_data.text2 }}</small>
 															</div>
+														</div>
+														<div class="dropdown-divider m-0"></div>
+													{% endif %}
+													{% for tab in item.dropdown_contents %}
+														<a class="dropdown-item" href="mydash.html">
+															<i class="{{ tab.icon }}"></i>{{ tab.text }}
+														</a>
+													{% endfor %}
+													<div class="dropdown-divider mt-0"></div>
+													{% for footer_item in item.footer_contents %}
+														<a class="dropdown-item" href="{{ footer_item.link }}">
+															<i class="{{ footer_item.icon }}"></i>  {{ footer_item.text }}
 														</a>
 													{% endfor %}
 												</div>
-												<div class="dropdown-divider"></div>
-												<a href="#" class="dropdown-item text-center">See all Messages</a>
 											</div>
-										</div>
-									{% elif item.type == "profile" %}
-										<div class="dropdown d-md-flex {{ item.style }}">
-											<a class="nav-link icon text-center" data-toggle="dropdown">
-												<i class="{{ item.icon }}"></i>
-												<span class="{{ item.span_class }}">{{ item.span_text }}</span>
-											</a>
-											<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-												{% if item.dropdown_heading %}
-													<div class="drop-heading">
-														<div class="text-center">
-															<h5 class="text-dark mb-1">{{ item.dropdown_heading_data.text1 }}</h5>
-															<small class="text-muted fs-16 text-primary font-weight-semibold">{{ item.dropdown_heading_data.text2 }}</small>
-														</div>
-													</div>
-													<div class="dropdown-divider m-0"></div>
-												{% endif %}
-												{% for tab in item.dropdown_contents %}
-													<a class="dropdown-item" href="mydash.html">
-														<i class="{{ tab.icon }}"></i>{{ tab.text }}
-													</a>
-												{% endfor %}
-												<div class="dropdown-divider mt-0"></div>
-												{% for footer_item in item.footer_contents %}
-													<a class="dropdown-item" href="{{ footer_item.link }}">
-														<i class="{{ footer_item.icon }}"></i>  {{ footer_item.text }}
-													</a>
-												{% endfor %}
-											</div>
-										</div>
-									{% endif %}
-								{% endfor %}
+										{% endif %}
+									{% endfor %}
+								</div>
 							</div>
 						</div>
-					</div>
-				</header><!--/Header-->
+					</header><!--/Header-->
 
-				<!-- Mobile Header -->
-				<div class="horizontal-header clearfix ">
-					<div class="container">
-						<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
-						<span class="smllogo"><img src="{% static header.header_logo1 %}" width="120" alt="img"/></span>
-						<span class="smllogo-white"><img src="{% static header.header_logo2 %}" width="120" alt="img"/></span>
-						<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					<!-- Mobile Header -->
+					<div class="horizontal-header clearfix ">
+						<div class="container">
+							<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+							<span class="smllogo"><img src="{% static header.header_logo1 %}" width="120" alt="img"/></span>
+							<span class="smllogo-white"><img src="{% static header.header_logo2 %}" width="120" alt="img"/></span>
+							<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+						</div>
 					</div>
+					<!-- /Mobile Header -->
 				</div>
-				<!-- /Mobile Header -->
 			</div>
-		</div>
 
-		<div class="header-style horizontal-main bg-dark-transparent clearfix">
-			<div class="horizontal-mainwrapper container clearfix">
-				<nav class="horizontalMenu clearfix d-md-flex">
-					<ul class="horizontalMenu-list">
-						{% for nav_item in horizontal_navbar.nav_items %}
-							{% if nav_item.type == "dropdown" %}
-								{% if nav_item.dropdown_type == "simple" %}
-									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
-										<ul class="sub-menu">
-											{% for item in nav_item.items %}
-												<li><a href="{{ item.link }}">{{ item.text }}</a></li>
-											{% endfor %}
-										</ul>
-									</li>
-								{% elif nav_item.dropdown_type == "grid" %}
-									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}" class="">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
-										<div class="horizontal-megamenu clearfix">
-											<div class="container">
-												<div class="megamenu-content">
-													<div class="row">
-														{% for column in nav_item.grid_columns %}
-															<ul class="col link-list">
-																<li class="title">{{ column.title }}</li>
-																{% for item in column.grid_items %}
-																	<li><a href="{{ item.link }}">{{ item.text }}</a></li>
-																{% endfor %}
-															</ul>
-														{% endfor %}
+			<div class="header-style horizontal-main bg-dark-transparent clearfix">
+				<div class="horizontal-mainwrapper container clearfix">
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+							{% for nav_item in horizontal_navbar.nav_items %}
+								{% if nav_item.type == "dropdown" %}
+									{% if nav_item.dropdown_type == "simple" %}
+										<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
+											<ul class="sub-menu">
+												{% for item in nav_item.items %}
+													<li><a href="{{ item.link }}">{{ item.text }}</a></li>
+												{% endfor %}
+											</ul>
+										</li>
+									{% elif nav_item.dropdown_type == "grid" %}
+										<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}" class="">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
+											<div class="horizontal-megamenu clearfix">
+												<div class="container">
+													<div class="megamenu-content">
+														<div class="row">
+															{% for column in nav_item.grid_columns %}
+																<ul class="col link-list">
+																	<li class="title">{{ column.title }}</li>
+																	{% for item in column.grid_items %}
+																		<li><a href="{{ item.link }}">{{ item.text }}</a></li>
+																	{% endfor %}
+																</ul>
+															{% endfor %}
+														</div>
 													</div>
 												</div>
 											</div>
-										</div>
-									</li>
-								{% elif nav_item.dropdown_type == "submenu" %}
-									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }}<span class="fe fe-chevron-down m-0"></span></a>
-										<ul class="sub-menu">
-											{% for submenu in nav_item.submenus %}
-												<li aria-haspopup="true"><a href="{{ submenu.link }}">{{ submenu.name }}<i class="fa fa-angle-right float-right mt-1 d-none d-lg-block"></i></a>
-													 <ul class="sub-menu">
-													 	{% for item in submenu.items %}
-															<li aria-haspopup="true"><a href="{{ item.link }}">{{ item.name }}</a></li>
-														{% endfor %}
-													</ul>
-												</li>
-											{% endfor %}
-										</ul>
-									</li>
+										</li>
+									{% elif nav_item.dropdown_type == "submenu" %}
+										<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }}<span class="fe fe-chevron-down m-0"></span></a>
+											<ul class="sub-menu">
+												{% for submenu in nav_item.submenus %}
+													<li aria-haspopup="true"><a href="{{ submenu.link }}">{{ submenu.name }}<i class="fa fa-angle-right float-right mt-1 d-none d-lg-block"></i></a>
+														 <ul class="sub-menu">
+														 	{% for item in submenu.items %}
+																<li aria-haspopup="true"><a href="{{ item.link }}">{{ item.name }}</a></li>
+															{% endfor %}
+														</ul>
+													</li>
+												{% endfor %}
+											</ul>
+										</li>
+									{% endif %}
+								{% elif nav_item.type == "link" %}
+									<li aria-haspopup="true"><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
 								{% endif %}
-							{% elif nav_item.type == "link" %}
-								<li aria-haspopup="true"><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
-							{% endif %}
-						{% endfor %}
-					</ul>
+							{% endfor %}
+						</ul>
 
 
-					<ul class="mb-0">
-						{% for nav_button in horizontal_navbar.nav_buttons %}
-							<li aria-haspopup="true" class="d-none d-lg-block ">
-								<span><a class="{{ nav_button.btn_class }}" href="{{ nav_button.link }}"><i class="{{ nav_button.icon }} mr-2 text-white fs-16"></i>{{ nav_button.text }}</a></span>
-							</li>
-						{% endfor %}
-					</ul>
-				</nav>
+						<ul class="mb-0">
+							{% for nav_button in horizontal_navbar.nav_buttons %}
+								<li aria-haspopup="true" class="d-none d-lg-block ">
+									<span><a class="{{ nav_button.btn_class }}" href="{{ nav_button.link }}"><i class="{{ nav_button.icon }} mr-2 text-white fs-16"></i>{{ nav_button.text }}</a></span>
+								</li>
+							{% endfor %}
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
 
