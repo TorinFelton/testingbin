@@ -6,15 +6,15 @@
 		<meta charset="UTF-8">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta content="{{ page.description }}" name="description">
-		<meta content="{{ page.author }}" name="author">
-		<meta name="keywords" content="{{ page.keywords }}"/>
+		<meta content="{{ meta.description }}" name="description">
+		<meta content="{{ meta.author }}" name="author">
+		<meta name="keywords" content="{{ meta.keywords }}"/>
 		<!-- Favicon -->
-		<link rel="icon" href="{% static page.header_icon %}" type="image/x-icon"/>
-		<link rel="shortcut icon" type="image/x-icon" href="{% static page.header_icon %}" />
+		<link rel="icon" href="{% static meta.header_icon %}" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="{% static meta.header_icon %}" />
 
 		<!-- Title -->
-		<title>{{ page.header_title }}</title>
+		<title>{{ meta.header_title }}</title>
 
 		<!-- Bootstrap css -->
 		<link href="{% static 'dt1_template/assets/plugins/bootstrap-4.3.1/css/bootstrap.min.css' %}" rel="stylesheet" />
@@ -80,7 +80,7 @@
 										</div>
 										<div class="clearfix">
 											<ul class="contact">
-												{% if top_bar.contact.communication.show %}
+												{% if top_bar.contact.communication %}
 													{% for contact_info in top_bar.contact.communication.contents %}
 													<li class="d-lg-none">
 														<a href="{{ contact_info.link }}" class="callnumber text-dark"><span><i class="{{ contact_info.icon }} ml-1"></i>{{ contact_info.text }}</span></a>
