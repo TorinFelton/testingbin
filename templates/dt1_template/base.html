@@ -312,6 +312,72 @@
 				<!-- /Mobile Header -->
 			</div>
 		</div>
+
+		<div class="header-style horizontal-main bg-dark-transparent clearfix">
+			<div class="horizontal-mainwrapper container clearfix">
+				<nav class="horizontalMenu clearfix d-md-flex">
+					<ul class="horizontalMenu-list">
+						{% for nav_item in horizontal_navbar.nav_items %}
+							{% if nav_item.type == "dropdown" %}
+								{% if nav_item.dropdown_type == "simple" %}
+									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
+										<ul class="sub-menu">
+											{% for item in nav_item.items %}
+												<li><a href="{{ item.link }}">{{ item.text }}</a></li>
+											{% endfor %}
+										</ul>
+									</li>
+								{% elif nav_item.dropdown_type == "grid" %}
+									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}" class="">{{ nav_item.dropdown_name }} <span class="fe fe-chevron-down"></span></a>
+										<div class="horizontal-megamenu clearfix">
+											<div class="container">
+												<div class="megamenu-content">
+													<div class="row">
+														{% for column in nav_item.grid_columns %}
+															<ul class="col link-list">
+																<li class="title">{{ column.title }}</li>
+																{% for item in column.grid_items %}
+																	<li><a href="{{ item.link }}">{{ item.text }}</a></li>
+																{% endfor %}
+															</ul>
+														{% endfor %}
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								{% elif nav_item.dropdown_type == "submenu" %}
+									<li aria-haspopup="true"><a href="{{ nav_item.dropdown_name_link }}">{{ nav_item.dropdown_name }}<span class="fe fe-chevron-down m-0"></span></a>
+										<ul class="sub-menu">
+											{% for submenu in nav_item.submenus %}
+												<li aria-haspopup="true"><a href="{{ submenu.link }}">{{ submenu.name }}<i class="fa fa-angle-right float-right mt-1 d-none d-lg-block"></i></a>
+													 <ul class="sub-menu">
+													 	{% for item in submenu.items %}
+															<li aria-haspopup="true"><a href="{{ item.link }}">{{ item.name }}</a></li>
+														{% endfor %}
+													</ul>
+												</li>
+											{% endfor %}
+										</ul>
+									</li>
+								{% endif %}
+							{% elif nav_item.type == "link" %}
+								<li aria-haspopup="true"><a href="{{ nav_item.link }}">{{ nav_item.name }}</a></li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+
+
+					<ul class="mb-0">
+						{% for nav_button in horizontal_navbar.nav_buttons %}
+							<li aria-haspopup="true" class="d-none d-lg-block ">
+								<span><a class="{{ nav_button.btn_class }}" href="{{ nav_button.link }}"><i class="{{ nav_button.icon }} mr-2 text-white fs-16"></i>{{ nav_button.text }}</a></span>
+							</li>
+						{% endfor %}
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</body>
 
 	<div>

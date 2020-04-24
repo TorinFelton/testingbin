@@ -275,7 +275,239 @@
 				]
 			}
 		]
+	},
 
+	"horizontal_navbar": {
+		"nav_items": [
+			{
+				"type": "dropdown",
+				"dropdown_type": "simple",
+				"dropdown_name": "Home",
+				"dropdown_name_link": "#",
+				"items": [
+					{
+						"link": "#",
+						"text": "Home Page 01"
+					},
+					{
+						"link": "#",
+						"text": "Home Page 02"
+					},
+					{
+						"link": "#",
+						"text": "Home Page 03"
+					},
+					{
+						"link": "#",
+						"text": "Home Page 04"
+					}
+				]
+			},
+			{
+				"type": "link",
+				"link": "about.html",
+				"name": "About Us"
+			},
+			{
+				"type": "link",
+				"link": "widgets.html",
+				"name": "Widgets"
+			},
+			{
+				"type": "dropdown",
+				"dropdown_type": "grid",
+				"dropdown_name": "Pages",
+				"dropdown_name_link": "#",
+				"grid_columns": [
+					{
+						"title": "Other Pages",
+						"grid_items": [
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							}
+						]
+					},
+					{
+						"title": "Other Pages",
+						"grid_items": [
+							{
+								"link": "pricing.html",
+								"text": "Pricing"
+							},
+							{
+								"link": "typography.html",
+								"text": "Typography"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							}
+						]
+					},
+					{
+						"title": "User Pages",
+						"grid_items": [
+							{
+								"link": "userprofile.html",
+								"text": "User Profile"
+							},
+							{
+								"link": "myfavourite.html",
+								"text": "Favourite"
+							},
+							{
+								"link": "payments.html",
+								"text": "Payments"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							},
+							{
+								"link": "page-list.html",
+								"text": "Page List"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "dropdown",
+				"dropdown_type": "submenu",
+				"dropdown_name": "Blog",
+				"dropdown_name_link": "#",
+				"submenus": [
+					{
+						"name": "Blog Grid",
+						"link": "#",
+						"items": [
+							{
+								"name": "Blog Grid Left",
+								"link": "blog-grid.html"
+							},
+							{
+								"name": "Blog Grid Right",
+								"link": "blog-grid-right.html"
+							},
+							{
+								"name": "Blog Grid Center",
+								"link": "blog-grid-center.html"
+							}
+						]
+					},
+					{
+						"name": "Blog List",
+						"link": "#",
+						"items": [
+							{
+								"name": "Blog List Left",
+								"link": "blog-list.html"
+							},
+							{
+								"name": "Blog List Right",
+								"link": "blog-list-right.html"
+							},
+							{
+								"name": "Blog List Center",
+								"link": "blog-list-center.html"
+							}
+						]
+					},
+					{
+						"name": "Blog Details",
+						"link": "#",
+						"items": [
+							{
+								"name": "Blog Details Left",
+								"link": "blog-details.html"
+							},
+							{
+								"name": "Blog Details Right",
+								"link": "blog-details-right.html"
+							},
+							{
+								"name": "Blog Details Center",
+								"link": "blog-details-center.html"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "dropdown",
+				"dropdown_type": "simple",
+				"dropdown_name": "Custom Pages",
+				"dropdown_name_link": "#",
+				"items": [
+					{
+						"link": "forum.html",
+						"text": "Forum"
+					},
+					{
+						"link": "register.html",
+						"text": "Register"
+					},
+					{
+						"link": "login.html",
+						"text": "Login"
+					},
+					{
+						"link": "forgot.html",
+						"text": "Forgot Password"
+					}
+				]
+			},
+			{
+				"type": "link",
+				"link": "contact.html",
+				"name": "Contact Us"
+			}
+		],
+		"nav_buttons": [
+			{
+				"text": "Become a Seller",
+				"icon": "fa fa-cart-plus",
+				"btn_class": "btn ripple btn-danger ad-post",
+				"link": "register.html"
+			}
+		]
 	},
 
 	"sections": [
