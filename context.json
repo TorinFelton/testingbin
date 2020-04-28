@@ -951,7 +951,7 @@
                     },
                     {
                         "id": "tab-2",
-                        "class": "tab pane",
+                        "class": "tab-pane",
                         "items": [
                             {
                                 "ribbon_icon": "fa fa-bolt",
@@ -1068,7 +1068,7 @@
                     },
                     {
                         "id": "tab-3",
-                        "class": "tab pane",
+                        "class": "tab-pane",
                         "items": [
                             {
                                 "ribbon_icon": "fa fa-bolt",
@@ -1111,7 +1111,7 @@
                     },
                     {
                         "id": "tab-4",
-                        "class": "tab pane",
+                        "class": "tab-pane",
                         "items": [
                             {
                                 "ribbon_icon": "fa fa-bolt",
