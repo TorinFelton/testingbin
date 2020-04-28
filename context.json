@@ -508,72 +508,171 @@
 
     "sections": [
         {
-            "type": "header",
-            "title": "This is Phantom, a free, fully responsive site",
-            "text": "Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore."
+            "file": "masthead1.html",
+            "content": {
+                "background_img": "dt1_template/assets/images/banners/banner1.jpg",
+                "title": "Create your Business With MarketPlace",
+                "tagline": "It is a long established fact that a reader will be distracted by the readable.",
+                "searchbar_placeholder": "Search Product...",
+                "bottom_line": "45,789 HTML Templates from $1"
+            }
         },
         {
-            "type": "tiles",
-            "items": [
-                {
-                    "name": "Tile1",
-                    "img": "phantom_template/images/pic01.jpg",
-                    "class": "style1",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                },
-                {
-                    "name": "Tile2",
-                    "img": "phantom_template/images/pic02.jpg",
-                    "class": "style2",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                },
-                {
-                    "name": "Tile3",
-                    "img": "phantom_template/images/pic03.jpg",
-                    "class": "style3",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                },
-                {
-                    "name": "Tile4",
-                    "img": "phantom_template/images/pic02.jpg",
-                    "class": "style4",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                },
-                {
-                    "name": "Tile5",
-                    "img": "phantom_template/images/pic02.jpg",
-                    "class": "style5",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                },
-                {
-                    "name": "Tile6",
-                    "img": "phantom_template/images/pic02.jpg",
-                    "class": "style6",
-                    "link": "generic.html",
-                    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
-                }
-            ]
-        },
-        {
-            "type": "text",
-            "title": "Text Section",
-            "img": "phantom_template/images/pic14.jpg",
-            "img_align": "left",
-            "content": "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent."
-        },
-        {
-            "type": "page",
-            "title": "Generic Page",
-            "img": "phantom_template/images/pic13.jpg",
-            "content": [
-                "Donec eget ex magna. Interdum et malesuada, et malesuada fames.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            ]
+            "file": "owl_carousel1.html",
+            "content": {
+                "title": "Latest Templates",
+                "tagline": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                "carousel": [
+                    {
+                        "ribbon_icon": "fa fa-bolt",
+                        "link": "page-details.html",
+                        "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                        "tag_text": "HTML",
+                        "hover_icons": [
+                            {
+                                "class": "bg-primary",
+                                "link": "#",
+                                "title": "Add to Wishlist",
+                                "icon": "fe fe-heart"
+                            },
+                            {
+                                "class": "bg-secondary",
+                                "link": "#",
+                                "title": "Buy Now",
+                                "icon": "fe fe-shopping-cart"
+                            },
+                            {
+                                "class": "bg-info",
+                                "link": "#",
+                                "title": "View Details",
+                                "icon": "fe fe-eye"
+                            }
+                        ],
+                        "title": "HTML Template",
+                        "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                        "star_amount": "4",
+                        "price": "$15",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                            "link": "#",
+                            "author_name": "Emily Parsons",
+                            "author_item_icon": "fe fe-shopping-cart",
+                            "author_item_amount": "36"
+                        }
+                    },
+                    {
+                        "ribbon_icon": "fa fa-bolt",
+                        "link": "page-details.html",
+                        "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                        "tag_text": "HTML",
+                        "hover_icons": [
+                            {
+                                "class": "bg-primary",
+                                "link": "#",
+                                "title": "Add to Wishlist",
+                                "icon": "fe fe-heart"
+                            },
+                            {
+                                "class": "bg-secondary",
+                                "link": "#",
+                                "title": "Buy Now",
+                                "icon": "fe fe-shopping-cart"
+                            },
+                            {
+                                "class": "bg-info",
+                                "link": "#",
+                                "title": "View Details",
+                                "icon": "fe fe-eye"
+                            }
+                        ],
+                        "title": "HTML Template",
+                        "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                        "star_amount": "4",
+                        "price": "$15",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                            "link": "#",
+                            "author_name": "Emily Parsons",
+                            "author_item_icon": "fe fe-shopping-cart",
+                            "author_item_amount": "36"
+                        }
+                    },
+                    {
+                        "ribbon_icon": "fa fa-bolt",
+                        "link": "page-details.html",
+                        "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                        "tag_text": "HTML",
+                        "hover_icons": [
+                            {
+                                "class": "bg-primary",
+                                "link": "#",
+                                "title": "Add to Wishlist",
+                                "icon": "fe fe-heart"
+                            },
+                            {
+                                "class": "bg-secondary",
+                                "link": "#",
+                                "title": "Buy Now",
+                                "icon": "fe fe-shopping-cart"
+                            },
+                            {
+                                "class": "bg-info",
+                                "link": "#",
+                                "title": "View Details",
+                                "icon": "fe fe-eye"
+                            }
+                        ],
+                        "title": "HTML Template",
+                        "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                        "star_amount": "4",
+                        "price": "$15",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                            "link": "#",
+                            "author_name": "Emily Parsons",
+                            "author_item_icon": "fe fe-shopping-cart",
+                            "author_item_amount": "36"
+                        }
+                    },
+                    {
+                        "ribbon_icon": "fa fa-bolt",
+                        "link": "page-details.html",
+                        "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                        "tag_text": "HTML",
+                        "hover_icons": [
+                            {
+                                "class": "bg-primary",
+                                "link": "#",
+                                "title": "Add to Wishlist",
+                                "icon": "fe fe-heart"
+                            },
+                            {
+                                "class": "bg-secondary",
+                                "link": "#",
+                                "title": "Buy Now",
+                                "icon": "fe fe-shopping-cart"
+                            },
+                            {
+                                "class": "bg-info",
+                                "link": "#",
+                                "title": "View Details",
+                                "icon": "fe fe-eye"
+                            }
+                        ],
+                        "title": "HTML Template",
+                        "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                        "star_amount": "4",
+                        "price": "$15",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                            "link": "#",
+                            "author_name": "Emily Parsons",
+                            "author_item_icon": "fe fe-shopping-cart",
+                            "author_item_amount": "36"
+                        }
+                    }
+                ]
+            }
         }
     ],
 

@@ -3,9 +3,9 @@
 
 {% block content %}
 
-<div style="text-align: center;">
-    <h1> CONTENT </h1>
-</div>
+{% for section in sections %}
+	{% include section.file %}
+{% endfor %}
 
 
 {% endblock %}
