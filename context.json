@@ -508,7 +508,7 @@
 
     "sections": [
         {
-            "file": "masthead1.html",
+            "file": "dt1_template/masthead1.html",
             "content": {
                 "background_img": "dt1_template/assets/images/banners/banner1.jpg",
                 "title": "Create your Business With MarketPlace",
@@ -518,7 +518,7 @@
             }
         },
         {
-            "file": "owl_carousel1.html",
+            "file": "dt1_template/owl_carousel1.html",
             "content": {
                 "title": "Latest Templates",
                 "tagline": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
