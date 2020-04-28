@@ -695,6 +695,464 @@
                     }
                 ]
             }
+        },
+        {
+            "file": "list_panel1.html",
+            "content": {
+                "title": "Featured Templates",
+                "tagline": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                "filters": [
+                    {
+                        "name": "All",
+                        "class": "active show",
+                        "filter_link": "#tab-1"
+                    },
+                    {
+                        "name": "HTML",
+                        "filter_link": "#tab-2"
+                    },
+                    {
+                        "name": "Wordpress",
+                        "filter_link": "#tab-3"
+                    },
+                    {
+                        "name": "PHP",
+                        "filter_link": "#tab-4"
+                    },
+                ],
+                "tab_panes": [
+                    {
+                        "id": "tab-1",
+                        "class": "tab-pane active show",
+                        "items": [
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "Wordpress",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "Wordpress Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "PHP",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "PHP Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "Wordpress",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "Wordpress Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "tab-2",
+                        "items": [
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "HTML",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "HTML Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "tab-3",
+                        "items": [
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "Wordpress",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "Wordpress Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "tab-4",
+                        "items": [
+                            {
+                                "ribbon_icon": "fa fa-bolt",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "tag_text": "Wordpress",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "title": "Wordpress Template",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
+                                    "link": "#",
+                                    "author_name": "Emily Parsons",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "pane_bottom_text": "View All Products",
+                "pane_bottom_text_link": "ad-list.html"
+            }
         }
     ],
 
