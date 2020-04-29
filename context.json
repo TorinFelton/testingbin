@@ -1263,7 +1263,7 @@
             "content": {
                 "widgets": [
                     {
-                        "bg_img": "dt1_template/assets/images/svg/1.svg",
+                        "bg_img": "assets/images/svg/1.svg",
                         "title": "Sell Products",
                         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiishic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit",
                         "button": {
