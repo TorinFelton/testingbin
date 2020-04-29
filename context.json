@@ -722,14 +722,18 @@
                 ],
                 "tab_panes": [
                     {
-                        "id": "tab-1",
                         "class": "tab-pane active show",
-                        "items": [
+                        "id": "tab-1",
+                        "cards": [
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -750,23 +754,26 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "HTML Template",
+                                "name": "HTML Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
                                 "price": "$15",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
                             },
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -787,23 +794,26 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "HTML Template",
+                                "name": "HTML Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
                                 "price": "$15",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
                             },
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "PHP",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -824,23 +834,26 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "HTML Template",
+                                "name": "PHP Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
-                                "price": "$15",
+                                "price": "$32",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
                             },
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "Wordpress",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "Wordpress",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -861,88 +874,13 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "Wordpress Template",
+                                "name": "Wordpress Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
-                                "price": "$15",
+                                "price": "$1",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
-                                    "author_item_icon": "fe fe-shopping-cart",
-                                    "author_item_amount": "36"
-                                }
-                            },
-                            {
-                                "ribbon_icon": "fa fa-bolt",
-                                "link": "page-details.html",
-                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "PHP",
-                                "hover_icons": [
-                                    {
-                                        "class": "bg-primary",
-                                        "link": "#",
-                                        "title": "Add to Wishlist",
-                                        "icon": "fe fe-heart"
-                                    },
-                                    {
-                                        "class": "bg-secondary",
-                                        "link": "#",
-                                        "title": "Buy Now",
-                                        "icon": "fe fe-shopping-cart"
-                                    },
-                                    {
-                                        "class": "bg-info",
-                                        "link": "#",
-                                        "title": "View Details",
-                                        "icon": "fe fe-eye"
-                                    }
-                                ],
-                                "title": "PHP Template",
-                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
-                                "star_amount": "4",
-                                "price": "$15",
-                                "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
-                                    "author_item_icon": "fe fe-shopping-cart",
-                                    "author_item_amount": "36"
-                                }
-                            },
-                            {
-                                "ribbon_icon": "fa fa-bolt",
-                                "link": "page-details.html",
-                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "Wordpress",
-                                "hover_icons": [
-                                    {
-                                        "class": "bg-primary",
-                                        "link": "#",
-                                        "title": "Add to Wishlist",
-                                        "icon": "fe fe-heart"
-                                    },
-                                    {
-                                        "class": "bg-secondary",
-                                        "link": "#",
-                                        "title": "Buy Now",
-                                        "icon": "fe fe-shopping-cart"
-                                    },
-                                    {
-                                        "class": "bg-info",
-                                        "link": "#",
-                                        "title": "View Details",
-                                        "icon": "fe fe-eye"
-                                    }
-                                ],
-                                "title": "Wordpress Template",
-                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
-                                "star_amount": "4",
-                                "price": "$15",
-                                "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
@@ -950,14 +888,18 @@
                         ]
                     },
                     {
+                        "class": "tab-pane",
                         "id": "tab-2",
-                        "class": "tab-pane",
-                        "items": [
+                        "cards": [
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -978,23 +920,26 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "HTML Template",
+                                "name": "HTML Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
                                 "price": "$15",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
                             },
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -1015,51 +960,13 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "HTML Template",
+                                "name": "HTML Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
                                 "price": "$15",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
-                                    "author_item_icon": "fe fe-shopping-cart",
-                                    "author_item_amount": "36"
-                                }
-                            },
-                            {
-                                "ribbon_icon": "fa fa-bolt",
-                                "link": "page-details.html",
-                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "HTML",
-                                "hover_icons": [
-                                    {
-                                        "class": "bg-primary",
-                                        "link": "#",
-                                        "title": "Add to Wishlist",
-                                        "icon": "fe fe-heart"
-                                    },
-                                    {
-                                        "class": "bg-secondary",
-                                        "link": "#",
-                                        "title": "Buy Now",
-                                        "icon": "fe fe-shopping-cart"
-                                    },
-                                    {
-                                        "class": "bg-info",
-                                        "link": "#",
-                                        "title": "View Details",
-                                        "icon": "fe fe-eye"
-                                    }
-                                ],
-                                "title": "HTML Template",
-                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
-                                "star_amount": "4",
-                                "price": "$15",
-                                "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
@@ -1067,14 +974,18 @@
                         ]
                     },
                     {
+                        "class": "tab-pane",
                         "id": "tab-3",
-                        "class": "tab-pane",
-                        "items": [
+                        "cards": [
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "Wordpress",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "Wordpress",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -1095,14 +1006,13 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "Wordpress Template",
+                                "name": "Wordpress Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
-                                "price": "$15",
+                                "price": "$1",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
@@ -1110,14 +1020,18 @@
                         ]
                     },
                     {
-                        "id": "tab-4",
                         "class": "tab-pane",
-                        "items": [
+                        "id": "tab-4",
+                        "cards": [
                             {
-                                "ribbon_icon": "fa fa-bolt",
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "PHP",
                                 "link": "page-details.html",
                                 "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
-                                "tag_text": "Wordpress",
                                 "hover_icons": [
                                     {
                                         "class": "bg-primary",
@@ -1138,14 +1052,13 @@
                                         "icon": "fe fe-eye"
                                     }
                                 ],
-                                "title": "Wordpress Template",
+                                "name": "PHP Templates",
                                 "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
                                 "star_amount": "4",
-                                "price": "$15",
+                                "price": "$32",
                                 "author": {
-                                    "avatar": "dt1_template/assets/images/users/female/18.jpg",
-                                    "link": "#",
-                                    "author_name": "Emily Parsons",
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
@@ -1153,8 +1066,8 @@
                         ]
                     }
                 ],
-                "pane_bottom_text": "View All Products",
-                "pane_bottom_text_link": "ad-list.html"
+                "bottom_text": "View All Products",
+                "text_link": "ad-list.html"
             }
         }
     ],
