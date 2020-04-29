@@ -1259,7 +1259,7 @@
             }
         },
         {
-            "file": "dt1_template/widgets1.html",
+            "file": "dt1_template/widget1.html",
             "content": {
                 "widgets": [
                     {
