@@ -675,7 +675,7 @@
             }
         },
         {
-            "file": "dt1_template/row-deck1.html",
+            "file": "dt1_template/row_deck1.html",
             "content": {
                 "tiles": [
                     {
@@ -1228,6 +1228,34 @@
                 ],
                 "bottom_text": "View All Products",
                 "text_link": "ad-list.html"
+            }
+        },
+        {
+            "file": "dt1_template/row_deck2.html",
+            "content": {
+                "class": "about-1 cover-image sptb section-bg-background-color1",
+                "tiles": [
+                    {
+                        "icon": "fe fe-codepen",
+                        "title": "Total Items",
+                        "number": "2569"
+                    },
+                    {
+                        "icon": "fe fe-shopping-cart",
+                        "title": "Total Sales",
+                        "number": "1742"
+                    },
+                    {
+                        "icon": "fe fe-users",
+                        "title": "Total Members",
+                        "number": "4123"
+                    },
+                    {
+                        "icon": "icon icon-emotsmile",
+                        "title": "Happy Customers",
+                        "number": "2332"
+                    }
+                ]
             }
         }
     ],
