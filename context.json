@@ -884,6 +884,86 @@
                                     "author_item_icon": "fe fe-shopping-cart",
                                     "author_item_amount": "36"
                                 }
+                            },
+                            {
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "name": "HTML Templates",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "name": "HTML Templates",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
                             }
                         ]
                     },
@@ -891,6 +971,86 @@
                         "class": "tab-pane",
                         "id": "tab-2",
                         "cards": [
+                            {
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "name": "HTML Templates",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
+                            {
+                                "ribbon": {
+                                    "class": "ribbon ribbon-top-left text-danger",
+                                    "span_class": "bg-danger",
+                                    "text": "Featured"
+                                },
+                                "tag": "HTML",
+                                "link": "page-details.html",
+                                "cover_image": "dt1_template/assets/images/media/pictures/1.jpg",
+                                "hover_icons": [
+                                    {
+                                        "class": "bg-primary",
+                                        "link": "#",
+                                        "title": "Add to Wishlist",
+                                        "icon": "fe fe-heart"
+                                    },
+                                    {
+                                        "class": "bg-secondary",
+                                        "link": "#",
+                                        "title": "Buy Now",
+                                        "icon": "fe fe-shopping-cart"
+                                    },
+                                    {
+                                        "class": "bg-info",
+                                        "link": "#",
+                                        "title": "View Details",
+                                        "icon": "fe fe-eye"
+                                    }
+                                ],
+                                "name": "HTML Templates",
+                                "description": "Lorem Ipsum available, quis int lorem ipsum nostrum exercitationem",
+                                "star_amount": "4",
+                                "price": "$15",
+                                "author": {
+                                    "name": "Gavin Fraser",
+                                    "img": "dt1_template/assets/images/users/male/1.jpg",
+                                    "author_item_icon": "fe fe-shopping-cart",
+                                    "author_item_amount": "36"
+                                }
+                            },
                             {
                                 "ribbon": {
                                     "class": "ribbon ribbon-top-left text-danger",
