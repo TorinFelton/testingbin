@@ -15,8 +15,8 @@
                                         <div class="owl-controls clickable">
                                             <div class="owl-pagination">
                                                 {% for page in testimonial.pagination %}
-                                                    <div class="{{ page }}">
-                                                        <span class=""><img src=""/></span>
+                                                    <div class="{{ page.class }}">
+                                                        <span class=""><img src="{% static page.avatar %}"/></span>
                                                     </div>
                                                 {% endfor %}
                                             </div>
