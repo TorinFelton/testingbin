@@ -17,7 +17,7 @@
                                             <div class="owl-pagination">
                                                 {% for page in testimonial.pagination %}
                                                     <div class="{{ page.class }}">
-                                                        <span class=""><img src="{% static page.avatar %}"/></span>
+                                                        <span class="">{% if page.avatar %}<img src="{% static page.avatar %}"/>{% endif %}</span>
                                                     </div>
                                                 {% endfor %}
                                             </div>
