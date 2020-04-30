@@ -1383,6 +1383,126 @@
                                 "href": "javascript:void(0)"
                             }
                         ]
+                    },
+                    {
+                        "cover_image": "dt1_template/assets/images/media/0-1.jpg",
+                        "link": "blog-details.html",
+                        "left_icon": {
+                            "icon": "fa fa-calendar-o",
+                            "text": "Nov-1-2019"
+                        },
+                        "right_icon": {
+                            "icon": "fa fa-comment",
+                            "text": "4 Comments"
+                        },
+                        "title": "Enim ad minim",
+                        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/male/5.jpg",
+                            "name": "William Tell",
+                            "link": "profile.html",
+                            "date": "1 day ago"
+                        },
+                        "reactions": [
+                            {
+                                "icon_class": "fe fe-heart mr-1",
+                                "href": "javascript:void(0)"
+                            },
+                            {
+                                "icon_class": "fa fa-thumbs-o-up",
+                                "href": "javascript:void(0)"
+                            }
+                        ]
+                    },
+                    {
+                        "cover_image": "dt1_template/assets/images/media/0-1.jpg",
+                        "link": "blog-details.html",
+                        "left_icon": {
+                            "icon": "fa fa-calendar-o",
+                            "text": "Dec-03-2020"
+                        },
+                        "right_icon": {
+                            "icon": "fa fa-comment",
+                            "text": "4 Comments"
+                        },
+                        "title": "Enim ipsam",
+                        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/male/5.jpg",
+                            "name": "John Doe",
+                            "link": "profile.html",
+                            "date": "1 day ago"
+                        },
+                        "reactions": [
+                            {
+                                "icon_class": "fe fe-heart mr-1",
+                                "href": "javascript:void(0)"
+                            },
+                            {
+                                "icon_class": "fa fa-thumbs-o-up",
+                                "href": "javascript:void(0)"
+                            }
+                        ]
+                    },
+                    {
+                        "cover_image": "dt1_template/assets/images/media/0-1.jpg",
+                        "link": "blog-details.html",
+                        "left_icon": {
+                            "icon": "fa fa-calendar-o",
+                            "text": "Dec-03-2020"
+                        },
+                        "right_icon": {
+                            "icon": "fa fa-comment",
+                            "text": "4 Comments"
+                        },
+                        "title": "Nemo",
+                        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/male/5.jpg",
+                            "name": "Michael Nash",
+                            "link": "profile.html",
+                            "date": "1 day ago"
+                        },
+                        "reactions": [
+                            {
+                                "icon_class": "fe fe-heart mr-1",
+                                "href": "javascript:void(0)"
+                            },
+                            {
+                                "icon_class": "fa fa-thumbs-o-up",
+                                "href": "javascript:void(0)"
+                            }
+                        ]
+                    },
+                    {
+                        "cover_image": "dt1_template/assets/images/media/0-1.jpg",
+                        "link": "blog-details.html",
+                        "left_icon": {
+                            "icon": "fa fa-calendar-o",
+                            "text": "Aug-03-2010"
+                        },
+                        "right_icon": {
+                            "icon": "fa fa-comment",
+                            "text": "2 Comments"
+                        },
+                        "title": "Voluptatem",
+                        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/male/5.jpg",
+                            "name": "Maie Dent",
+                            "link": "profile.html",
+                            "date": "1 day ago"
+                        },
+                        "reactions": [
+                            {
+                                "icon_class": "fe fe-heart mr-1",
+                                "href": "javascript:void(0)"
+                            },
+                            {
+                                "icon_class": "fa fa-thumbs-o-up",
+                                "href": "javascript:void(0)"
+                            }
+                        ]
                     }
                 ]
             }
