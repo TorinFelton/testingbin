@@ -1347,6 +1347,45 @@
                     }
                 ]
             }
+        },
+        {
+            "file": "owl-carousel2.html",
+            "content": {
+                "title": "Latest News",
+                "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+                "cards": [
+                    {
+                        "cover_image": "dt1_template/assets/images/media/0-1.jpg",
+                        "link": "blog-details.html",
+                        "left_icon": {
+                            "icon": "fa fa-calendar-o",
+                            "text": "Dec-03-2020",
+                        },
+                        "right_icon": {
+                            "icon": "fa fa-comment",
+                            "text": "4 Comments"
+                        },
+                        "title": "Nemo enim ipsam voluptatem",
+                        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat",
+                        "author": {
+                            "avatar": "dt1_template/assets/images/users/male/5.jpg",
+                            "name": "Joanne Nash",
+                            "link": "profile.html",
+                            "date": "1 day ago"
+                        },
+                        "reactions": [
+                            {
+                                "icon_class": "fe fe-heart mr-1",
+                                "href": "javascript:void(0)"
+                            },
+                            {
+                                "icon_class": "fa fa-thumbs-o-up",
+                                "href": "javascript:void(0)"
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     ],
 
