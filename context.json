@@ -1332,8 +1332,22 @@
                             "class": "btn ripple btn-secondary btn-lg",
                             "link": "testimonial.html"
                         }
+                    },
+                    {
+                        "pagination": [
+                            "owl-page", "owl-page", "owl-page active"
+                        ],
+                        "name": "Williamson",
+                        "job": "Web Developer",
+                        "star_amount": "5",
+                        "quote": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+                        "bottom_btn": {
+                            "text": "View All Testimonials",
+                            "class": "btn ripple btn-secondary btn-lg",
+                            "link": "testimonial.html"
+                        }
                     }
-                ]
+                ],
             }
         }
     ],
