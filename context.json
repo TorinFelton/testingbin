@@ -527,6 +527,19 @@
                     }
                 ] 
             }
+        }
+    ],
+
+    "_sections": [
+        {
+            "file": "dt1_template/masthead1.html",
+            "content": {
+                "background_img": "dt1_template/assets/images/banners/banner1.jpg",
+                "title": "Create your Business With MarketPlace",
+                "tagline": "It is a long established fact that a reader will be distracted by the readable.",
+                "searchbar_placeholder": "Search Product...",
+                "bottom_line": "45,789 HTML Templates from $1"
+            }
         },
         {
             "file": "dt1_template/owl_carousel1.html",
