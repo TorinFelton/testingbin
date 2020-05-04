@@ -11,7 +11,7 @@
                                 <div class="display-4 mb-4 font-weight-semibold ">{{ option.price }}</div>
                                 <ul class="list-unstyled mb-0">
                                     {% for feature in option.features %}
-                                        <li><i class="{{ feature.class }}"></i>{{ feature.name }}</li>
+                                        <li><i class="{{ feature.icon_class }}"></i>{{ feature.name }}</li>
                                     {% endfor %}
                                 </ul>
                                 {% if option.select_btn %}
