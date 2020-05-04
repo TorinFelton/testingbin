@@ -1506,6 +1506,26 @@
                     }
                 ]
             }
+        },
+        {
+            "file": "pricing_masthead.html",
+            "content": {
+                "title": "Pricing",
+                "breadcrumb": [
+                    {
+                        "name": "Home",
+                        "link": "#"
+                    },
+                    {
+                        "name": "Pages",
+                        "link": "#"
+                    },
+                    {
+                        "name": "Pricing",
+                        "active": true
+                    }
+                ] 
+            }
         }
     ],
 
