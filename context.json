@@ -508,6 +508,26 @@
 
     "sections": [
         {
+            "file": "dt1_template/pricing_masthead.html",
+            "content": {
+                "title": "Pricing",
+                "breadcrumb": [
+                    {
+                        "name": "Home",
+                        "link": "#"
+                    },
+                    {
+                        "name": "Pages",
+                        "link": "#"
+                    },
+                    {
+                        "name": "Pricing",
+                        "active": true
+                    }
+                ] 
+            }
+        },
+        {
             "file": "dt1_template/masthead1.html",
             "content": {
                 "background_img": "dt1_template/assets/images/banners/banner1.jpg",
@@ -1505,26 +1525,6 @@
                         ]
                     }
                 ]
-            }
-        },
-        {
-            "file": "dt1_template/pricing_masthead.html",
-            "content": {
-                "title": "Pricing",
-                "breadcrumb": [
-                    {
-                        "name": "Home",
-                        "link": "#"
-                    },
-                    {
-                        "name": "Pages",
-                        "link": "#"
-                    },
-                    {
-                        "name": "Pricing",
-                        "active": true
-                    }
-                ] 
             }
         }
     ],
