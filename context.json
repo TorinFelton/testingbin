@@ -1508,7 +1508,7 @@
             }
         },
         {
-            "file": "pricing_masthead.html",
+            "file": "dt1_template/pricing_masthead.html",
             "content": {
                 "title": "Pricing",
                 "breadcrumb": [
