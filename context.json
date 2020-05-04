@@ -568,15 +568,15 @@
                         "price": "$24",
                         "features": [
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Membership"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Theme Updates"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Support Updates"
                             },
                             {
@@ -599,23 +599,23 @@
                         "price": "$78",
                         "features": [
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Membership"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Theme Updates"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Support Updates"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Forum Support"
                             },
                             {
-                                "icon_class": "fe fe-x text-success mr-2",
+                                "icon_class": "fe fe-check text-success mr-2",
                                 "name": "Unlimited Downloads"
                             }
                         ],
