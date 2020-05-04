@@ -509,8 +509,8 @@
     "sections": [
         {
             "file": "dt1_template/pricing_masthead.html",
-            "background_img": "dt1_template/assets/images/banners/banner1.jpg",
             "content": {
+                "background_img": "dt1_template/assets/images/banners/banner1.jpg",
                 "title": "Pricing",
                 "breadcrumb": [
                     {
