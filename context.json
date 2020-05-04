@@ -700,6 +700,7 @@
                     },
                     {
                         "title": "Enterprise",
+                        "active": true,
                         "currency": "$",
                         "price": "20",
                         "name": "Yearly License",
