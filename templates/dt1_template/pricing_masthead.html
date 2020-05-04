@@ -10,7 +10,8 @@
                                 <li aria-current="page" class="breadcrumb-item active text-white">{{ crumb.name }}</li>
                             {% else %}
                                 <li class="breadcrumb-item"><a href="{{ crumb.link }}">{{ crumb.name }}</a></li>
-                            {% endif %}                        
+                            {% endif %}
+                        {% endfor %}
                     </ol>
                 </div>
             </div>
