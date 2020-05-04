@@ -635,6 +635,38 @@
                 "tagline": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
                 "columns": [
                     {
+                        "title": "Basic",
+                        "currency": "$",
+                        "price": "0",
+                        "name": "Free License",
+                        "features": [
+                            {
+                                "bold_value": "0",
+                                "text": "Demos Included"
+                            },
+                            {
+                                "bold_value": "Forum",
+                                "text": "Support"
+                            },
+                            {
+                                "bold_value": "Limited",
+                                "text": "Domain Usage"
+                            },
+                            {
+                                "bold_value": "0 Years",
+                                "text": "Updates"
+                            },
+                            {
+                                "bold_value": "24/7",
+                                "text": "Support"
+                            }
+                        ],
+                        "select_btn": {
+                            "class": "order-btn btn btn-primary btn-pill btn-block",
+                            "text": "Buy Now"
+                        }
+                    },
+                    {
                         "title": "Premium",
                         "currency": "$",
                         "price": "10",
