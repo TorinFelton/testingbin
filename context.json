@@ -765,6 +765,18 @@
                     }
                 ]
             }
+        },
+        {
+            "file": "dt1_template/subscribe1.html",
+            "content": {
+                "title": "Subscribe To Our Onlinesletter",
+                "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+                "btn": {
+                    "placeholder": "Enter your Email",
+                    "class": "btn ripple btn-primary btn-lg br-tr-3 br-br-3",
+                    "text": "Subscribe"
+                }
+            }
         }
     ],
 
