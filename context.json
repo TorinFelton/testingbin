@@ -510,6 +510,24 @@
         {
             "file": "dt1_template/page_details1.html",
             "content": {
+                "breadcrumb": {
+                    "title": "Details",
+                    "items": [
+                        {
+                            "link": "#",
+                            "name": "Home"
+                        },
+                        {
+                            "link": "#",
+                            "name": "Pages"
+                        },
+                        {
+                            "link": "#",
+                            "name": "Details",
+                            "active": true
+                        }
+                    ]
+                },
                 "main_cards": [
                     {
                         "type": "showcase",
