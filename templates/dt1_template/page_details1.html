@@ -1,4 +1,22 @@
 {% load static %}
+<div class="bg-white border-bottom">
+    <div class="container">
+        <div class="page-header">
+            <h4 class="page-title">{{ section.content.breadcrumb.title }}</h4>
+            <ol class="breadcrumb">
+                {% for item in section.content.breadcrumb.items %}
+                    {% if item.active %}
+                        <li class="breadcrumb-item active" aria-current="page">{{ item.name }}</li>
+                    {% else %}
+                        <li class="breadcrumb-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+</div>
+
+
 <section class="sptb">
     <div class="container">
         <div class="row">
