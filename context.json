@@ -543,13 +543,13 @@
                                 "icon": "fe fe-airplay"
                             },
                             {
-                                "text": "Live Preview",
+                                "text": "Add to favourites",
                                 "link": "#",
                                 "class": "btn ripple btn-outline-primary btn-lg-0",
                                 "icon": "fe fe-heart"
                             },
                             {
-                                "text": "Live Preview",
+                                "text": "Add to collection",
                                 "link": "#",
                                 "class": "btn ripple btn-light btn-lg-0",
                                 "icon": "fa fa-folder-open-o"
